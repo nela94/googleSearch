@@ -1,3 +1,13 @@
 header {
   text-align: right;
 }
+
+.searchbar {
+  width: 584px;
+  height: 44px;
+  border-radius: 24px;
+}
+
+.submit-btt {
+  margin-top: 20px;
+}
