@@ -16,19 +16,23 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
   color: white;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  border: 1px solid #3079ed;
+  border-radius: 2px;
+  cursor: default;
   float: right;
 }
 
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
 }
 
