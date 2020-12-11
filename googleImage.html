@@ -2,21 +2,24 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="image.css">
         <title>Google Image</title>
     </head>
     <body>
       <header>
-        <a href="index.html">Google Search</a>
+        <div class="googleBanner">
+          <a href="index.html"><img src="google.png" width="113px" style=" padding-top:10px; padding-left:10px; float: left;"></a>
+        </div>
       </header>
       <center>
-        <h1 style="margin-top:260px;">Manuela's Image Search</h1>
+        <h1 style="margin-top:160px;"><img src="googleImages.png" width="349px" height="131"></h1>
           <form action="https://google.com/images">
             <div class="main-content">
               <div class="search-bar">
                 <input class="searchbar" type="text" name="q" size="50">
               </div>
               <div class="submit-btt">
-                <input class="bttn" type="submit" value="Google Image Search">
+                <input class="bttn" id="search-bttn" type="submit" value="Google Image Search">
               </div>
             </div>
           </form>
