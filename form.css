@@ -68,6 +68,8 @@ input[type=submit] {
   color: #d93025;
   font-size: 20px;
   font-family: arial,sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .line {
