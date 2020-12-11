@@ -9,10 +9,13 @@ input[type=text], select, textarea{
   display: inline-block;
 }
 
+body {
+  font-family: arial,sans-serif;
+}
+
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
-  font-family: arial,sans-serif;
   font-size: 13px;
   display: inline-block;
   color: #222;
@@ -50,7 +53,7 @@ input[type=submit] {
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
-  width: 75%;
+  width: 44%;
   margin-top: 12px;;
 }
 
@@ -64,6 +67,43 @@ input[type=submit] {
 .appbar {
   color: #d93025;
   font-size: 20px;
+  font-family: arial,sans-serif;
+}
+
+.line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.intructions{
+  vertical-align: middle;
+  color: #777;
+  font-size: 13px;
+  padding-bottom: 0px;
+  font-weight: 700;
+}
+
+.HoCfzc {
+display: inline-block;
+min-width: 167px;
+min-height: 41px;
+vertical-align: middle;
+width: 50%;
+}
+
+.instruDescription{
+  color: #555;
+  font-size: 11px;
+}
+
+span.BFlQMb{
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.googleBanner{
+  background-color: #f1f1f1;
+  height: 70px;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -71,5 +111,17 @@ input[type=submit] {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .BFlQMb {
+    display: none;
+  }
+  .instruDescription {
+    display: none;
+  }
+  .intructions {
+    display: none;
   }
 }

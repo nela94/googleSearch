@@ -6,16 +6,19 @@
         <title>Google Advance Search</title>
     </head>
     <body>
-        <header>
+        <header class="googleBanner">
           <a href="index.html">Google Search</a>
         </header>
         <div class="appbar">
           <label style="margin-left:10px;color: #d93025;font-size: 20px;"> Advance Search</label>
         </div>
+        <div class="line"></div>
         <div class="container">
           <form action="https://google.com/search" method="get" name="f">
             <div class="row">
               <label style="font-size: 16px;color: #333;">Find pages with...</label>
+              <div class="HoCfzc">&nbsp; </div>
+              <label class="intructions"> To do this in the search box</label>
             </div>
             <div class="row">
               <div class="col-20">
@@ -23,6 +26,10 @@
               </div>
               <div class="col-75">
                 <input class="" type="text" name="as_q" placeholder="Find pages with..." style="width: 529px;height: 25px;">
+              </div>
+              <div class="col-20">
+                 <label class="instruDescription" style="padding-right: 0px; padding-bottom: 0px;">Type the important words:</label>
+                 <span class="BFlQMb"> tricolor rat terrier</span>
               </div>
             </div>
             <div class="row">
@@ -32,6 +39,10 @@
               <div class="col-75">
                 <input type="text" name="as_epq" placeholder="this exact word or phrase" style="width: 529px; height: 25px;">
               </div>
+              <div class="col-20" style="float: left;">
+                 <label class="instruDescription" style="padding-right: 0px; padding-bottom: 0px;">Put exact words in quotes:</label>
+                 <span class="BFlQMb"> "rat terrier"</span>
+              </div>
             </div>
             <div class="row">
               <div class="col-20">
@@ -39,6 +50,10 @@
               </div>
               <div class="col-75">
                 <input type="text" name="as_oq" placeholder="any of these words" style="width: 529px; height: 25px;">
+              </div>
+              <div class="col-20">
+                 <label class="instruDescription" style="padding-right: 0px; padding-bottom: 0px;">Type</label> <span class="BFlQMb">OR</span> <label class="instruDescription">between all the words you want:</label>
+                 <span class="BFlQMb"> miniature OR standard</span>
               </div>
             </div>
             <div class="row">
@@ -48,8 +63,11 @@
               <div class="col-75">
                 <input type="text" name="as_eq" placeholder="none of these words" style="width: 529px; height: 25px;">
               </div>
+              <div class="col-20">
+                 <label class="instruDescription" style="padding-right: 0px; padding-bottom: 0px;"> Put a minus sign just before words you don't want:</label> <span class="BFlQMb"> -rodent, -"Jack Russell"</span>
+              </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-right: 41%;">
               <input type="submit" value="Advance Search">
             </div>
           </form>
