@@ -2,6 +2,15 @@ header {
   text-align: right;
 }
 
+header.homeHeader {
+  padding-top: 11px;
+  padding-right: 20px;
+}
+
+body {
+  font-family: arial,sans-serif;
+}
+
 .searchbar {
   width: 584px;
   height: 44px;
@@ -9,6 +18,13 @@ header {
   border: 1px solid #dfe1e5;
   box-shadow: none;
   display: flex;
+}
+
+#link{
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  text-decoration: none;
+  padding-left: 20px;
 }
 
 #search-bttn {
